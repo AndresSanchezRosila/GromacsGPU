@@ -1,0 +1,982 @@
+# Grace project file
+#
+@version 50125
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 8 to "Courier", "Courier"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 18 to "NimbusMonoL-Bold", "NimbusMonoL-Bold"
+@map font 19 to "NimbusMonoL-BoldOblique", "NimbusMonoL-BoldOblique"
+@map font 20 to "NimbusMonoL-Regular", "NimbusMonoL-Regular"
+@map font 21 to "NimbusMonoL-RegularOblique", "NimbusMonoL-RegularOblique"
+@map font 22 to "NimbusMonoPS-Bold", "NimbusMonoPS-Bold"
+@map font 23 to "NimbusMonoPS-BoldItalic", "NimbusMonoPS-BoldItalic"
+@map font 24 to "NimbusMonoPS-Italic", "NimbusMonoPS-Italic"
+@map font 25 to "NimbusMonoPS-Regular", "NimbusMonoPS-Regular"
+@map font 26 to "NimbusRoman-Bold", "NimbusRoman-Bold"
+@map font 27 to "NimbusRoman-BoldItalic", "NimbusRoman-BoldItalic"
+@map font 28 to "NimbusRoman-Italic", "NimbusRoman-Italic"
+@map font 29 to "NimbusRoman-Regular", "NimbusRoman-Regular"
+@map font 30 to "NimbusRomanNo9L-Medium", "NimbusRomanNo9L-Medium"
+@map font 31 to "NimbusRomanNo9L-MediumItalic", "NimbusRomanNo9L-MediumItalic"
+@map font 32 to "NimbusRomanNo9L-Regular", "NimbusRomanNo9L-Regular"
+@map font 33 to "NimbusRomanNo9L-RegularItalic", "NimbusRomanNo9L-RegularItalic"
+@map font 34 to "NimbusSans-Bold", "NimbusSans-Bold"
+@map font 35 to "NimbusSans-BoldItalic", "NimbusSans-BoldItalic"
+@map font 36 to "NimbusSans-Italic", "NimbusSans-Italic"
+@map font 37 to "NimbusSans-Regular", "NimbusSans-Regular"
+@map font 38 to "NimbusSansL-Bold", "NimbusSansL-Bold"
+@map font 39 to "NimbusSansL-BoldCondensed", "NimbusSansL-BoldCondensed"
+@map font 40 to "NimbusSansL-BoldCondensedItalic", "NimbusSansL-BoldCondensedItalic"
+@map font 41 to "NimbusSansL-BoldItalic", "NimbusSansL-BoldItalic"
+@map font 42 to "NimbusSansL-Regular", "NimbusSansL-Regular"
+@map font 43 to "NimbusSansL-RegularCondensed", "NimbusSansL-RegularCondensed"
+@map font 44 to "NimbusSansL-RegularCondensedItalic", "NimbusSansL-RegularCondensedItalic"
+@map font 45 to "NimbusSansL-RegularItalic", "NimbusSansL-RegularItalic"
+@map font 46 to "NimbusSansNarrow-Bold", "NimbusSansNarrow-Bold"
+@map font 47 to "NimbusSansNarrow-BoldOblique", "NimbusSansNarrow-BoldOblique"
+@map font 48 to "NimbusSansNarrow-Oblique", "NimbusSansNarrow-Oblique"
+@map font 49 to "NimbusSansNarrow-Regular", "NimbusSansNarrow-Regular"
+@map font 50 to "P052-Bold", "P052-Bold"
+@map font 51 to "P052-BoldItalic", "P052-BoldItalic"
+@map font 52 to "P052-Italic", "P052-Italic"
+@map font 53 to "P052-Roman", "P052-Roman"
+@map font 54 to "StandardSymbolsL-Regular", "StandardSymbolsL-Regular"
+@map font 55 to "StandardSymbolsPS-Regular", "StandardSymbolsPS-Regular"
+@map font 12 to "Symbol", "Symbol"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 61 to "URWBookman-Demi", "URWBookman-Demi"
+@map font 62 to "URWBookman-DemiItalic", "URWBookman-DemiItalic"
+@map font 63 to "URWBookman-Light", "URWBookman-Light"
+@map font 64 to "URWBookman-LightItalic", "URWBookman-LightItalic"
+@map font 65 to "URWBookmanL-DemiBold", "URWBookmanL-DemiBold"
+@map font 66 to "URWBookmanL-DemiBoldItalic", "URWBookmanL-DemiBoldItalic"
+@map font 67 to "URWBookmanL-Light", "URWBookmanL-Light"
+@map font 68 to "URWBookmanL-LightItalic", "URWBookmanL-LightItalic"
+@map font 69 to "URWChanceryL-MediumItalic", "URWChanceryL-MediumItalic"
+@map font 70 to "URWGothic-Book", "URWGothic-Book"
+@map font 71 to "URWGothic-BookOblique", "URWGothic-BookOblique"
+@map font 72 to "URWGothic-Demi", "URWGothic-Demi"
+@map font 73 to "URWGothic-DemiOblique", "URWGothic-DemiOblique"
+@map font 74 to "URWGothicL-Book", "URWGothicL-Book"
+@map font 75 to "URWGothicL-BookOblique", "URWGothicL-BookOblique"
+@map font 76 to "URWGothicL-Demi", "URWGothicL-Demi"
+@map font 77 to "URWGothicL-DemiOblique", "URWGothicL-DemiOblique"
+@map font 78 to "URWPalladioL-Bold", "URWPalladioL-Bold"
+@map font 79 to "URWPalladioL-BoldItalic", "URWPalladioL-BoldItalic"
+@map font 80 to "URWPalladioL-Italic", "URWPalladioL-Italic"
+@map font 81 to "URWPalladioL-Roman", "URWPalladioL-Roman"
+@map font 82 to "Z003-MediumItalic", "Z003-MediumItalic"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Fri Jan  7 14:07:35 2022"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 0, -600000, 800, -300000
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.150000, 0.150000, 0.750000, 0.850000
+@    title "GROMACS Energies"
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label "Time (ps)"
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 200
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label "(kJ/mol)"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 50000
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.78, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 2
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xy
+@    s0 symbol 0
+@    s0 symbol size 1.000000
+@    s0 symbol color 1
+@    s0 symbol pattern 1
+@    s0 symbol fill color 1
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 1
+@    s0 line linestyle 1
+@    s0 line linewidth 1.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 1
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "/home/andres/Escritorio/Tesis/Cloud/lisozimaVM/Gromacs/potential.xvg"
+@    s0 legend  "Potential"
+@target G0.S0
+@type xy
+0 -330745.47
+1 -347376.34
+2 -370310.19
+3 -398920.34
+4 -427407.88
+5 -452449.03
+6 -458780.19
+7 -464432
+8 -464820.69
+9 -470120.12
+11 -475011.12
+12 -476330.47
+13 -480439.22
+15 -482800.5
+16 -484388.56
+17 -486760.41
+18 -486834
+19 -489165.97
+21 -492153.94
+22 -492222.44
+23 -495898.81
+25 -497342.38
+26 -497798
+27 -499187.56
+29 -501221
+30 -502052.81
+31 -504474.78
+33 -505477.28
+34 -506150.38
+35 -507095.38
+36 -507294.94
+37 -508081.38
+39 -510187.09
+40 -510619.53
+41 -513225.88
+43 -513890.03
+44 -514372.25
+45 -514890.44
+46 -515035.5
+47 -515266.28
+49 -517587.38
+50 -517653.34
+51 -520602.5
+53 -520995.59
+54 -521378.88
+55 -521556.31
+56 -521717.97
+58 -523522.66
+59 -524008.88
+60 -526144.31
+62 -526485.75
+63 -526824.75
+64 -527032
+65 -527172.94
+67 -528489.5
+68 -529459.69
+69 -531163.25
+71 -531417.12
+72 -531824.75
+73 -531883.38
+74 -532271.5
+76 -533055.69
+77 -533252.19
+78 -534210.38
+80 -534532.62
+81 -534745.06
+82 -535049.94
+83 -535105.69
+84 -535350.62
+86 -536197.94
+87 -536351.31
+88 -537399.25
+90 -537655.12
+91 -537844.56
+92 -538054.94
+93 -538116.5
+94 -538227.38
+96 -539150.12
+97 -539279.06
+98 -540435.12
+100 -540624.25
+101 -540806.81
+102 -540922.12
+103 -540998.06
+105 -541743
+106 -542278.75
+107 -543258.62
+109 -543411.94
+110 -543644.94
+111 -543691.25
+112 -543904.31
+114 -544390
+115 -544536.31
+116 -545147
+118 -545338.19
+119 -545479.19
+120 -545647.12
+121 -545706.25
+122 -545820.12
+124 -546380.25
+125 -546560.12
+126 -547275.5
+128 -547425.19
+129 -547566.81
+130 -547667.12
+131 -547745.25
+132 -547754.19
+134 -548408
+135 -548675
+136 -549511.38
+138 -549616.19
+139 -549761.5
+140 -549795.19
+141 -549888.31
+143 -550375
+144 -550477.5
+145 -551128.06
+147 -551240.44
+148 -551372.19
+149 -551425.88
+150 -551517.44
+152 -551919.5
+153 -552099.94
+154 -552624.88
+156 -552740.69
+157 -552857.31
+158 -552932.06
+159 -553009.38
+161 -553355
+162 -553660.19
+163 -554119.19
+165 -554226.62
+166 -554350.06
+167 -554413.06
+168 -554513.75
+170 -554791.56
+171 -555011.12
+172 -555375.25
+174 -555485.88
+175 -555591.5
+176 -555674.31
+177 -555753
+178 -555782.81
+179 -555798.69
+181 -556257.38
+182 -556317.31
+183 -556940.38
+185 -557004
+186 -557107.94
+187 -557110.25
+188 -557178.75
+190 -557549.56
+192 -557701.25
+193 -557849.88
+194 -557890.88
+195 -558062
+197 -558206.06
+198 -558280.94
+199 -558450.19
+201 -558568.19
+202 -558658.62
+203 -558794
+204 -558810.69
+205 -558957.56
+207 -559134
+208 -559185.94
+209 -559407.75
+211 -559515.69
+212 -559581.94
+213 -559694.81
+214 -559700.5
+215 -559809.81
+217 -560039.44
+218 -560063.31
+219 -560364.81
+221 -560456.94
+222 -560513.69
+223 -560595.56
+224 -560602.5
+225 -560655.81
+227 -560963.75
+229 -561092.88
+230 -561217.19
+231 -561260.94
+232 -561407.44
+234 -561517.06
+235 -561591.69
+236 -561715.12
+237 -561722.44
+238 -561852.44
+240 -562006.75
+241 -562055.81
+242 -562251.88
+244 -562340.69
+245 -562406.69
+246 -562493.06
+247 -562524.5
+248 -562598.25
+250 -562787.44
+251 -562907.88
+252 -563154.75
+254 -563227.5
+255 -563302.25
+256 -563355.88
+257 -563419.94
+258 -563435.69
+259 -563473.88
+261 -563743.62
+262 -563789.94
+263 -564133.25
+265 -564192.5
+266 -564255.94
+267 -564290.62
+268 -564324.31
+270 -564543.88
+271 -564718.62
+272 -565008.94
+274 -565067
+275 -565145.81
+276 -565168.75
+277 -565243.94
+279 -565393.75
+280 -565469.94
+281 -565655.81
+283 -565726.12
+284 -565780.75
+285 -565845.5
+286 -565874.94
+287 -565927.75
+289 -566097.38
+290 -566202.5
+291 -566417.94
+293 -566479.25
+294 -566536.12
+295 -566584.44
+296 -566623.25
+297 -566647.94
+299 -566844
+300 -567010.81
+301 -567259.31
+303 -567311.75
+304 -567372.44
+305 -567403.81
+306 -567451.19
+308 -567599.25
+309 -567725.25
+310 -567922.19
+312 -567975.69
+313 -568037
+314 -568073.75
+315 -568127.06
+316 -568130.25
+317 -568166.06
+319 -568374.38
+320 -568380.69
+321 -568648.81
+323 -568695.94
+324 -568740.38
+325 -568770.38
+326 -568789.56
+328 -568971.75
+329 -569115
+330 -569359.88
+332 -569402.19
+333 -569465.5
+334 -569477.62
+335 -569537.75
+337 -569662.44
+338 -569706.06
+339 -569863.31
+341 -569917.56
+342 -569958
+343 -570008
+344 -570026.25
+345 -570063.56
+347 -570214.44
+348 -570274.62
+349 -570465.38
+351 -570512.31
+352 -570556.19
+353 -570589
+354 -570615.19
+355 -570626.44
+357 -570804
+358 -570920.44
+359 -571148.56
+361 -571184.62
+362 -571232.81
+363 -571251.06
+364 -571287.75
+366 -571421.06
+367 -571484
+368 -571662.75
+370 -571704.94
+371 -571750.12
+372 -571776.75
+373 -571814.5
+375 -571925.62
+376 -572014.69
+377 -572156
+379 -572200.25
+380 -572242.06
+381 -572277.31
+382 -572308.88
+383 -572328.62
+384 -572331.62
+386 -572508.38
+387 -572605.56
+388 -572846.69
+390 -572872.62
+391 -572928.62
+393 -572996.19
+394 -573056.12
+395 -573141.31
+397 -573187.44
+398 -573228
+399 -573276.5
+400 -573300.75
+401 -573346.25
+403 -573425.31
+404 -573500.06
+405 -573598.19
+407 -573640.5
+408 -573680.56
+409 -573721.19
+410 -573747.44
+411 -573780.75
+412 -573782.75
+413 -573799.25
+415 -573967.25
+417 -574033.12
+418 -574096.25
+419 -574110.75
+420 -574183.5
+422 -574240.75
+423 -574271.62
+424 -574341.81
+426 -574389.5
+427 -574428.5
+428 -574481.5
+429 -574495
+430 -574550.31
+432 -574621.94
+433 -574657.75
+434 -574752.31
+436 -574794.88
+437 -574828.88
+438 -574868.19
+439 -574888.44
+440 -574921.06
+442 -575015.5
+443 -575085.56
+444 -575209.69
+446 -575245.44
+447 -575284.94
+448 -575308.75
+449 -575341.38
+450 -575348.31
+451 -575366
+453 -575507.38
+454 -575523.12
+455 -575706.12
+457 -575736.38
+458 -575767.75
+459 -575784.06
+460 -575800.38
+462 -575920.5
+463 -575987.56
+464 -576151.56
+466 -576179.06
+467 -576219.44
+468 -576229.62
+469 -576265.5
+471 -576356.75
+472 -576390.31
+473 -576504.19
+475 -576541.12
+476 -576568.69
+477 -576600.06
+478 -576614.38
+479 -576635.38
+481 -576745.31
+482 -576799.38
+483 -576940.5
+485 -576971.06
+486 -577004
+487 -577022.81
+488 -577044.12
+489 -577044.38
+491 -577177.31
+492 -577287.62
+493 -577458.5
+495 -577482.31
+496 -577518.25
+497 -577524.94
+498 -577554.69
+500 -577649.25
+501 -577675.31
+502 -577804.19
+504 -577833.69
+505 -577864.56
+506 -577883.81
+507 -577905.81
+509 -577991.44
+510 -578067.06
+511 -578176.06
+513 -578207.12
+514 -578237
+515 -578261.06
+516 -578284.5
+517 -578291.31
+518 -578298.62
+520 -578430.12
+521 -578457.94
+522 -578637.06
+524 -578656.81
+525 -578693.25
+527 -578747.19
+528 -578794.06
+529 -578861.88
+531 -578894.19
+532 -578923.25
+533 -578955.06
+534 -578973.94
+535 -579003.81
+537 -579066.94
+538 -579127.06
+539 -579206.38
+541 -579237.5
+542 -579266
+543 -579293.25
+544 -579313.19
+545 -579332.69
+546 -579336.75
+547 -579340.12
+549 -579475.56
+550 -579475.62
+551 -579652.44
+553 -579671
+554 -579698.5
+555 -579700.62
+556 -579716.69
+558 -579825.31
+559 -579833.75
+560 -579980.81
+562 -580001.12
+563 -580030.44
+564 -580037.5
+565 -580059.88
+567 -580146.06
+568 -580169.81
+569 -580280.69
+571 -580306.5
+572 -580330.31
+573 -580348.88
+574 -580362.25
+575 -580367.56
+577 -580473
+578 -580522.19
+579 -580658.62
+581 -580679.12
+582 -580706
+583 -580714.25
+584 -580734.44
+586 -580817.06
+587 -580845.62
+588 -580957.88
+590 -580982.19
+591 -581007.31
+592 -581020.12
+593 -581041.5
+595 -581111.19
+596 -581156.38
+597 -581244.31
+599 -581269.06
+600 -581293.5
+601 -581313.25
+602 -581329.69
+603 -581338.56
+605 -581420.81
+606 -581499.44
+607 -581606.25
+609 -581628.38
+610 -581653.75
+611 -581666
+612 -581688.12
+614 -581750.88
+615 -581798.06
+616 -581884.25
+618 -581909.19
+619 -581934.19
+620 -581950.25
+621 -581972.38
+622 -581974.25
+623 -581987.06
+625 -582085
+626 -582086.38
+627 -582215
+629 -582233.94
+630 -582254.94
+631 -582265.81
+632 -582275.38
+634 -582359
+635 -582400.12
+636 -582515.56
+638 -582533.19
+639 -582560.12
+640 -582565.94
+641 -582590.12
+643 -582653.06
+644 -582671.69
+645 -582752.62
+647 -582778.06
+648 -582796.5
+649 -582817.75
+650 -582826.69
+651 -582839.25
+653 -582915.88
+654 -582948.5
+655 -583048.94
+657 -583068.38
+658 -583090.5
+659 -583102.81
+660 -583117.12
+662 -583182.25
+663 -583236.44
+664 -583323.56
+666 -583345.25
+667 -583370.06
+668 -583381.06
+669 -583403.44
+671 -583455.44
+672 -583488.62
+673 -583552.88
+675 -583575.25
+676 -583596.19
+677 -583617.12
+678 -583628.94
+679 -583644.62
+681 -583704.62
+682 -583754.31
+683 -583832.06
+685 -583854.06
+686 -583875.56
+687 -583889.75
+688 -583906.44
+689 -583911.06
+690 -583914.31
+692 -584008
+693 -584020.25
+694 -584148.94
+696 -584160.62
+697 -584186.56
+699 -584224.88
+700 -584257.69
+701 -584305.44
+703 -584329.19
+704 -584348.19
+705 -584371
+706 -584383.69
+707 -584402.19
+708 -584402.38
+709 -584415.31
+711 -584497.5
+713 -584529.06
+714 -584560.06
+715 -584568.62
+716 -584605.25
+718 -584634.06
+719 -584651.69
+720 -584689
+722 -584713.94
+723 -584733.75
+724 -584760.62
+725 -584769.31
+726 -584796.31
+728 -584833.44
+729 -584855.88
+730 -584905
+732 -584928.19
+733 -584946.44
+734 -584966.56
+735 -584978.69
+736 -584994.5
+738 -585042.38
+739 -585089.75
+740 -585153.88
+742 -585173.88
+743 -585194.56
+744 -585207.94
+745 -585226.75
+746 -585230.69
+747 -585240.44
+749 -585312.88
+750 -585320
+751 -585413.31
+753 -585429.69
+754 -585446
+755 -585456.06
+756 -585462.44
+758 -585527.5
+759 -585572
+760 -585659.75
+762 -585673.56
+763 -585696.19
+764 -585700.75
+765 -585722
+767 -585769
+768 -585786.81
+769 -585846.25
+771 -585866.25
+772 -585881.69
+773 -585898.31
+774 -585906.56
+775 -585917.69
+777 -585975.44
+778 -586003.88
+779 -586076.19
+781 -586093.5
+782 -586111.38
+783 -586121.19
+784 -586133.44
+785 -586136
+787 -586204.69
+&
